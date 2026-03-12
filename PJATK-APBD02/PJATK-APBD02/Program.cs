@@ -7,3 +7,13 @@ class Program
         Console.WriteLine("Hello, APBD Lab2!");
     }
 }
+
+class StatisticsHelper
+{
+    public double[] List { get; }
+
+    public StatisticsHelper(double[] list)
+    {
+        this.List = list;
+    }
+}
